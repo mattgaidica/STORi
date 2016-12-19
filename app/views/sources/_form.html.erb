@@ -1,0 +1,12 @@
+<%= semantic_form_for @source do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :user %>
+    <%= f.input :title %>
+    <%= f.input :image %>
+    <%= f.input :doi %>
+  <% end %>
+
+  <%= f.actions do %>
+    <%= f.action :submit, :as => :input %>
+  <% end %>
+<% end %>

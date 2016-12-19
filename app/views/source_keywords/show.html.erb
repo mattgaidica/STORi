@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Source:</strong>
+  <%= @source_keyword.source %>
+</p>
+
+<p>
+  <strong>Keyword:</strong>
+  <%= @source_keyword.keyword %>
+</p>
+
+<%= link_to 'Edit', edit_source_keyword_path(@source_keyword) %> |
+<%= link_to 'Back', source_keywords_path %>

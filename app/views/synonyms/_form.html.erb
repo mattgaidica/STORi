@@ -1,0 +1,11 @@
+<%= semantic_form_for @synonym do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :keyword_1 %>
+    <%= f.input :keyword_2 %>
+    <%= f.input :strength %>
+  <% end %>
+
+  <%= f.actions do %>
+    <%= f.action :submit, :as => :input %>
+  <% end %>
+<% end %>

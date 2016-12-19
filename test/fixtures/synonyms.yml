@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  keyword_1: one
+  keyword_2: one
+  strength: 1.5
+
+two:
+  keyword_1: two
+  keyword_2: two
+  strength: 1.5

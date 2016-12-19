@@ -1,0 +1,1 @@
+json.array! @source_keywords, partial: 'source_keywords/source_keyword', as: :source_keyword

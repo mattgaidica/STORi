@@ -1,0 +1,1 @@
+json.partial! "source_keywords/source_keyword", source_keyword: @source_keyword
